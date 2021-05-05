@@ -20,7 +20,7 @@ public class Pawn extends Piece {
     private static final int[] CANDIDATE_MOVE_COORDINATE = {8, 16, 7, 9};
 
     public Pawn(Alliance pieceAlliance, int piecePosition) {
-        super(piecePosition, pieceAlliance);
+        super(pieceType.PAWN ,piecePosition, pieceAlliance);
     }
 
     @Override
